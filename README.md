@@ -14,7 +14,7 @@ In contrast to the original vue-template-compiler, each function is being export
 
 Example:
 ```typescript
-import { parseComponent } from 'https://deno.land/x/vue_template_compiler@1.0.0/mod.js';
+import { parseComponent } from 'https://deno.land/x/vue_template_compiler@0.1.0/mod.js';
 
 const template = await Deno.readTextFile(Deno.cwd() + '/App.vue');
 const parsed = parseComponent(template);
